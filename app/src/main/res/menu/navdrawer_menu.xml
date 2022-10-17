@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+     android:id="@+id/loginFragment"
+     android:icon="@drawable/shoe_list"
+       android:title="@string/make_login"/>
+    <item
+        android:id="@+id/registerFragment"
+        android:icon="@drawable/add_button"
+        android:title="@string/make_register"/>
+
+</menu>

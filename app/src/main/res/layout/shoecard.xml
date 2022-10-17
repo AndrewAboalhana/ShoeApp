@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="shoe"
+            type="com.example.shoeapp.Shoe" />
+    </data>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:backgroundTint="#FFEDB8"
+    android:layout_margin="@dimen/default_margin"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="@dimen/default_cornerRadius"
+    android:padding="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/shoeName"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:layout_margin="@dimen/small_margin"
+        android:text="@{shoe.shoeName}"
+        android:fontFamily="@font/alata"
+        android:textColor="#C35D5D"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/shoeCompany"
+
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:textSize="@dimen/text_size"
+        android:text="@{shoe.company}"
+        android:textColor="#D13B3B"
+        android:fontFamily="@font/alata"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/shoeSize"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:textSize="@dimen/text_size"
+        android:text="@{shoe.size}"
+        android:textColor="#8C732A"
+        android:fontFamily="@font/alata"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/shoeDescription"
+        android:layout_margin="@dimen/small_margin"
+        android:layout_width="wrap_content"
+        android:textColor="#03A9F4"
+        android:text="@{shoe.description}"
+        android:textSize="@dimen/text_size"
+        android:fontFamily="@font/alata"
+        android:layout_height="wrap_content"/>
+
+   </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+</layout>

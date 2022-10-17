@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".welcomeandinstrictions.WelcomeFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_screen">
+
+
+    <TextView
+        android:id="@+id/onboard_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_screen"
+        android:textSize="@dimen/text_size"
+        android:fontFamily="@font/alata"
+        android:textColor="#EFD704"
+        android:padding="@dimen/default_padding"
+        android:layout_margin="@dimen/default_margin"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginTop="100dp"
+        android:textSize="@dimen/text_size"
+        android:textColor="#FAEF93"
+        android:fontFamily="@font/alata"
+        android:textStyle="bold"
+        android:text="@string/onboard_text2"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/welcome_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:textAllCaps="false"
+        android:text="@string/text_instructions_button"
+        app:cornerRadius="@dimen/default_cornerRadius"
+        android:backgroundTint="#ECE0BD"/>
+</LinearLayout>
+</layout>

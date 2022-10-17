@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ShoeApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_text">Hello to our shoe store</string>
+    <string name="hint_email">Email</string>
+    <string name="password_text">Password</string>
+    <string name="Login_text">Enjoy our app</string>
+    <string name="register_text">Register</string>
+    <string name="hello_register">Welcome to our app, I am so happy because you want to be a member of our family</string>
+    <string name="name_register">Name</string>
+    <string name="go_button">Go Enjoy</string>
+    <string name="welcome_screen">Welcome in our app i hope you can find what you want</string>
+    <string name="onboard_text2">Now i think you are ready to know our instructions to help you to use this app let\'s go please press the Button</string>
+    <string name="text_instructions_button">Go to instructions</string>
+    <string name="instructions_text">1.first thing you must make login to can go in our app for this try to save your password 2.please don\'t tell anyone about your payment methods 3.if anything doesn\'t like you please contact with the support 4. i hope you have fun in our app</string>
+    <string name="welcome_text_in_instructions">Welcome In Instructions Screen</string>
+    <string name="press_button_instruction">Now lets go to make shopping. please press the button</string>
+    <string name="make_shopping_button">Make shopping</string>
+    <string name="welcome_shoe_list">Welcome to the shoe shop</string>
+    <string name="add_button">Add</string>
+    <string name="logout_button">Logout</string>
+    <string name="make_login">Make Login</string>
+    <string name="make_register">Make Register</string>
+    <string name="welcome_add_shoe_fragment">Welcome To Add Shoe To Our Section</string>
+    <string name="text_label_for_add_shoe">Shoe Name, Company, Shoe Size</string>
+    <string name="add_shoe_in_add_fragment">ADD</string>
+    <string name="cancel_shoe_in_add_fragment">cancel</string>
+    <string name="name_add_shoe">Name</string>
+    <string name="add_shoe_company">Company</string>
+    <string name="add_shoe_size">Size</string>
+    <string name="add_shoe_description">Description</string>
+
+
+</resources>

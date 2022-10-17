@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/activity_main.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/add_shoe_fragment.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/instructions_fragment.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/login_fragment.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/nav_header.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/register_fragment.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/shoe_list_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/shoecard.xml" value="0.25" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/layout/welcome_fragment.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/menu/logout_menu.xml" value="0.25" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/ShoeApp/app/src/main/res/menu/navdrawer_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.24074074074074073" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
